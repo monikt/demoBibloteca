@@ -30,6 +30,7 @@ public class BIblotecaController {
         l ->     
         LOG.info(l.getNombreLibro() + " " + l.getEditorial() + " " + l.getAutor())
      );
+     LOG.info("PRUEBA");
     model.addAttribute("listaLibros",objLibroService.getAllLibros());
     return "index";
     }
