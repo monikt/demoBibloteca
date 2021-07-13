@@ -14,5 +14,7 @@ import java.util.List;
  */
 public interface LibroService {
     List<Libro> getAllLibros();
-    
+    void crearLibro( Libro objlibro);
+    Libro getLibroId(Long id);
+    void eliminarLibroById(Long id);
 }
